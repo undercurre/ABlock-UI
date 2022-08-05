@@ -1,0 +1,21 @@
+{
+  "name": "ablock-ui",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module":"es/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "ablock-ui",
+    "vue3组件库"
+  ],
+  "author": "lihua",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
+}
