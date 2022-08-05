@@ -1,0 +1,80 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "D:\\智慧屏\\模板开发\\block-ui"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "ablock-ui",
+      "version": "1.0.0",
+      "description": "",
+      "main": "src/index.ts",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "D:\\智慧屏\\模板开发\\block-ui\\packages\\components"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\MyData\\lirh42\\AppData\\Local\\pnpm\\store\\v3",
+    "virtualStoreDir": "D:\\智慧屏\\模板开发\\block-ui\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\智慧屏\\模板开发\\block-ui",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@ablock-ui%2Futils"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@ablock-ui%2Futils"
+  },
+  "6 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@ablock-ui/utils is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Bearer npm_[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer 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",
+      "url": "https://registry.npmjs.org/@ablock-ui%2Futils"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "@ablock-ui/utils",
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "@ablock-ui/utils",
+      "type": "tag"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/@ablock-ui%2Futils: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/@ablock-ui%2Futils: Not Found - 404\n    at RetryOperation._fn (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:84259:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
