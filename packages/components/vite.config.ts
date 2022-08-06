@@ -40,9 +40,8 @@ export default defineConfig(
                 ]
             },
             lib: {
-                entry: './index.ts',
+                entry: 'src/index.ts',
                 formats: ['es', 'cjs']
-                // cjs模式主要用于服务端引用(ssr),而esm就是我们现在经常使用的方式
             }
         },
         plugins: [
@@ -56,6 +55,7 @@ export default defineConfig(
                 outputDir:'lib',
                 tsConfigFilePath: '../../tsconfig.json'
             })
+
         ]
     }
 )

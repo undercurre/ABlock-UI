@@ -1,4 +1,4 @@
 "use strict";
-const index = require("./node_modules/@ablock-ui/utils/index.js");
-const result = index.testfun(1, 1);
-console.log(result);
+Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
+const index = require("./button/index.js");
+exports.Button = index;
