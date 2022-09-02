@@ -7,9 +7,3 @@ importers:
       ablock-ui: workspace:^1.0.0
     dependencies:
       ablock-ui: link:../packages/components
-
-  packages/components:
-    specifiers:
-      '@ablock-ui/utils': workspace:^1.0.0
-    dependencies:
-      '@ablock-ui/utils': link:../utils

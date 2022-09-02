@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
-    "build": "vite build"
+    "build": "rimraf lib && rimraf es && vite build"
   },
   "files": [
     "es",
@@ -19,6 +19,10 @@
   "description": "",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@ablock-ui/utils": "workspace:^1.0.0"
+    "@ablock-ui/utils": "workspace:^1.0.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "unocss": "^0.45.4"
   }
 }

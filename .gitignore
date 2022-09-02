@@ -1,1 +1,4 @@
-/node_modules
+# 忽略名称中包含node_modules的文件夹
+/*node_modules*/
+/packages/components/lib
+/packages/components/es

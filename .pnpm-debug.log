@@ -1,14 +1,24 @@
 {
   "0 debug pnpm:scope": {
-    "selected": 1
+    "selected": 1,
+    "workspacePrefix": "D:\\智慧屏\\模板开发\\ABlock-UI"
   },
-  "1 error pnpm": {
-    "code": "ERR_PNPM_NO_PKG_MANIFEST",
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: dev",
+      "code": "ENOENT",
+      "stack": "Error: not found: dev\n    at getNotFoundError (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41518:51)\n    at Function.whichSync [as sync] (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41595:13)\n    at getCommandAbsolutePathSync (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43160:44)\n    at default_1 (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43169:32)\n    at D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:171190:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "D:\\智慧屏\\模板开发\\ABlock-UI",
     "err": {
       "name": "pnpm",
-      "message": "No package.json found in D:\\智慧屏\\模板开发\\block-ui",
-      "code": "ERR_PNPM_NO_PKG_MANIFEST",
-      "stack": "pnpm: No package.json found in D:\\智慧屏\\模板开发\\block-ui\n    at handler (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:120573:17)\n    at async D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:175391:21\n    at async run (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:175365:34)\n    at async runPnpm (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:175583:5)\n    at async D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:175575:7"
+      "message": "not found: dev",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: dev\n    at getNotFoundError (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41518:51)\n    at Function.whichSync [as sync] (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41595:13)\n    at getCommandAbsolutePathSync (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43160:44)\n    at default_1 (D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43169:32)\n    at D:\\MyData\\lirh42\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:171190:39"
     }
   }
 }
